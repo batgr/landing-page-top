@@ -81,8 +81,45 @@ button {
   padding-bottom: 8px;
 }
 
-img {
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+
+.section-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.items {
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-image,
+.illustration {
   height: auto;
   width: 200px;
   border-radius: 10px;
+}
+
+.information-section-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
