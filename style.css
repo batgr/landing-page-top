@@ -44,6 +44,8 @@ a {
 .hero {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 70px;
 }
 
 .title {
@@ -77,4 +79,10 @@ button {
 
 .hero-secondary-text {
   padding-bottom: 8px;
+}
+
+img {
+  height: auto;
+  width: 200px;
+  border-radius: 10px;
 }
